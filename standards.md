@@ -178,7 +178,7 @@ orderific-bms-new/
 
 - **ESLint** extends `next/core-web-vitals`; TypeScript rules adjusted in `.eslintrc.json`.
 
-- Run `npm run lint` or `yarn lint` before commits.
+- Run `yarn lint` before commits.
 
 - Pre-commit hooks (if added) should enforce lint and formatting.
 
@@ -198,7 +198,7 @@ orderific-bms-new/
 
 - Copy `.env.example` to `.env.local` and set all required variables; never commit `.env.local`.
 
-- Run `yarn dev` (with TurobPack) to start the development server on port 3000.
+- Run `yarn dev` (with Turbopack) to start the development server on port 3000.
 
 ## Editor & IDE Configuration
 
@@ -324,7 +324,7 @@ git checkout -b feature/<ticket-number>-<short-desc>
 
 ```bash
 yarn lint
-npm run build
+yarn build
 ```
 
 5. Stage and commit your work using Conventional Commits, including the related ticket number:
@@ -409,7 +409,7 @@ git pull origin main
 
 - Leverage Radix UI primitives for accessible UI components.
 
-- Always run `yarn lint` and `npm run build` locally before pushing code.
+- Always run `yarn lint` and `yarn build` locally before pushing code.
 
 - Use the PR's description to include ticket links, context, screenshots, and testing instructions.
 
