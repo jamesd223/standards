@@ -1,4 +1,4 @@
-# Project Best Practices
+# Best Practices
 
 ## Table of Contents
 
@@ -6,43 +6,43 @@
 
 2. [Tech Stack](#tech-stack)
 
-3. [Folder Structure & Architecture](#folder-structure--architecture)
+3. [Folder Structure & Architecture](#folder-structure-architecture)
 
 4. [Next.js App Router Patterns](#nextjs-app-router-patterns)
 
-5. [Styling & UI Components](#styling--ui-components)
+5. [Styling & UI Components](#styling-ui-components)
 
-6. [Data Fetching & State Management](#data-fetching--state-management)
+6. [Data Fetching & State Management](#data-fetching-state-management)
 
-7. [Forms & Validation](#forms--validation)
+7. [Forms & Validation](#forms-validation)
 
-8. [Localization & Internationalization](#localization--internationalization)
+8. [Localization & Internationalization](#localization-internationalization)
 
-9. [Theming & Dark Mode](#theming--dark-mode)
+9. [Theming & Dark Mode](#theming-dark-mode)
 
-10. [Linting & Formatting](#linting--formatting)
+10. [Linting & Formatting](#linting-formatting)
 
-11. [Environment Variables & Config](#environment-variables--config)
+11. [Environment Variables & Config](#environment-variables-config)
 
-12. [Developer Environment & Setup](#developer-environment--setup)
+12. [Developer Environment & Setup](#developer-environment-setup)
 
-13. [Editor & IDE Configuration](#editor--ide-configuration)
+13. [Editor & IDE Configuration](#editor-ide-configuration)
 
 14. [UI/UX Testing and Design Fidelity](#uiux-testing-and-design-fidelity)
 
-15. [Performance & Caching](#performance--caching)
+15. [Performance & Caching](#performance-caching)
 
-16. [SEO & Accessibility](#seo--accessibility)
+16. [SEO & Accessibility](#seo-accessibility)
 
-17. [Logging & Monitoring](#logging--monitoring)
+17. [Logging & Monitoring](#logging-monitoring)
 
 18. [Security Best Practices](#security-best-practices)
 
-19. [Docker & Deployment](#docker--deployment)
+19. [Docker & Deployment](#docker-deployment)
 
-20. [Git Workflow & Code Reviews](#git-workflow--code-reviews)
+20. [Git Workflow & Code Reviews](#git-workflow-code-reviews)
 
-21. [Do's & Don'ts](#dos--donts)
+21. [Do's & Don'ts](#dos-donts)
 
 22. [Code Examples](#code-examples)
 
@@ -81,35 +81,20 @@ Welcome to **AutomatedPros**! This document outlines the best practices, archite
 orderific-bms-new/
 
 ├─ public/                # Static assets (images, icons)
-
 ├─ src/
-
 │  ├─ app/                # Next.js App Router pages and layouts
-
 │  │  ├─ [locale]/        # Internationalized routes
-
 │  │  ├─ components/      # Shared components at app level
-
 │  │  └─ ...              # Feature modules (dashboard, orders, etc.)
-
 │  ├─ components/         # Global reusable components
-
 │  ├─ hooks/              # Custom React hooks (e.g., queries/users)
-
 │  ├─ api/                # API clients and services
-
 │  ├─ lib/                # Utility functions and helpers
-
 │  ├─ providers/          # React context and providers
-
 │  └─ styles/             # Global styles and Tailwind overrides
-
 ├─ next.config.ts         # Next.js configuration (webpack, i18n plugin)
-
 ├─ tailwind.config.js     # Tailwind CSS configuration
-
 ├─ .eslintrc.json         # ESLint settings
-
 └─ Dockerfile             # Container image definition
 
 ```
